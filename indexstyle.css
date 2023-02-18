@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#image{
+    background-image: url(./pizzaimages.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+
+
+}
+#header{
+    background-color:  #00000080;
+    padding: 20px 10px;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+#header a{
+    float: left;
+    color: bisque;
+    text-align: center;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 20px;
+    line-height: 20px;
+    border-radius: 4px;
+    font-family: 'poppins', sans-serif;
+}
+#header a:hover{
+    color: rgba(255, 123, 0, 0.822);
+}
+#header a#logo{
+    font-size: 4vw;
+    font-weight: 900;
+    -webkit-text-stroke: 0.1vw chocolate;
+    text-shadow: 5px red;
+    color: blanchedalmond;
+    font-family: cursive, sans-serif;
+
+}
+#header a#logo:hover{
+    color: rgba(255, 123, 0, 0.822);
+    -webkit-text-stroke: 0.1vw whitesmoke;
+}
+#header a#active{
+    color: rgba(255, 123, 0, 0.822);
+}
+#header-right{
+    float: right;
+    padding-top: 5px;
+}
+#statement{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#statement h1{
+    color: #ffff00cc;
+    padding-top: 200px;
+    -webkit-text-stroke: 0.3vw #100a0a;
+    font-family: inherit;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+}
+#statement h1:hover{
+    color: #1b1a1a96;
+    -webkit-text-stroke: 0.3vw yellow;
+}
+#text{
+    color: bisque;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    margin: 0px 50px 0px 50px;
+}
+#button{
+    text-align: center;
+}
+#button button{ 
+    color: red;
+    background-color: yellow;
+    border: none;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+#button button:hover{
+    -webkit-text-stroke: 0.1vw rgb(223, 217, 217);
+    background-color: red;
+    
+}
+#footer{
+    text-align: center;
+    padding: 70px 50px;
+}
+#image2{
+    background-image: url('Restaurant.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    background-attachment: scroll;
+}
+#image2 #overlay{
+    background-color: rgba(0, 0, 0, 0.315);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+#statement2{
+    text-align: center;
+
+}
+#statement2 h1{
+    color: bisque;
+    padding-top: 310px;
+    -webkit-text-stroke: 0.3vw #100a0a;
+    font-family: cursive;
+    font-size: 80px;
+    font-weight: bolder;
+    justify-content: center;
+}
+#statement2 h1:hover{
+    color: rgba(0, 0, 0, 0.63);
+    -webkit-text-stroke: 0.3vw whitesmoke;
+}
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: hsla(0, 0%, 0%);
+
+}
+.footer:hover{
+    background: rgba(0, 0, 0, 0.925);;
+}
+.footer h2,h5{
+    color: bisque;
+    font-family: cursive;
+}
+  
+
+@media (max-width: 596px ) 
+{
+    #header a{
+        float: none;
+        display: block;
+        text-align: left;
+
+    }
+    #header-right{
+        float: none;
+
+    }
+    
+
+}
+#chef{
+    padding: 25px 0 25px 0;
+}
+
+.chef_col h4{
+    font-family: cursive;
+
+}
+#statement3{
+    text-align: center;
+}
+#statement3 h1{
+    color: bisque;
+    font-size: 40px;
+    -webkit-text-stroke: 0.2vw #100a0a;
+    text-align: center;
+    justify-content: center;
+    font-family: cursive, sans-serif, poppins;
+}
+#chef_row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.chef_col{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+#image3{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+
+}
+#image3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+#image3 img:hover{
+    box-shadow: 8px 4px 8px 4px rgba(0, 0, 0, 0.5);
+}

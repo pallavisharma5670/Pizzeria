@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width",initial-scale="1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+    <title>contact</title>  
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body{
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+            margin-bottom: 5px;
+
+
+        }
+        .wrapper{
+            width: 350px;
+            height: 610px;
+    
+            padding: 10px;
+            margin: 50px auto;
+            box-shadow: 10px 10px 20px 10px rgb(24, 22, 22);
+            border-bottom-left-radius: 80px;
+            border-top-right-radius: 80px;
+        }
+        form{
+            width: 260px;
+            margin: 20px 37px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        form h1{
+            font-weight: bold;
+            
+        }
+        input, textarea{
+            width: 100%;
+            padding: 7px;
+            border:none;
+            outline: none; 
+            display: block;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            border: 1px solid tomato;
+            background-color: rgba(252, 251, 250, 0.719);
+
+
+        }
+        button{
+            width: 100%;
+            border: none;
+            outline: none;
+            padding: 10px;
+            color: yellow;
+            cursor: pointer;
+            margin-top: 5px;
+            background: crimson;
+            border-radius: 14px;
+
+        }
+        button:hover{
+            background: rgb(252, 2, 52);
+        }
+        .footer {
+            padding: 10px;
+            text-align: center;
+            background: hsla(0, 0%, 0%, 0.432);
+        }
+        .footer h2,h5{
+            color: bisque;
+            font-family: cursive;
+        }   
+          
+
+    </style>
+</head>
+<body div style="background-image: url('contactpizza.jpg');">  
+    <div class="wrapper">
+        <form method = "POST" action = "hello.php">
+            <h1 style=" text-align:center; color: rgb(250, 33, 33); padding-bottom: 20px; text-shadow: 2px 2px   rgb(15, 15, 14);">CONTACT US</h1>
+            <input type="text" placeholder="Name on Card" name="myname" required>
+            <input type="email" placeholder="E-mail*" name="myemail" required>
+            <input type="password"placeholder="Enter Your Password*" name="mypassword" required>
+            <input type="text"placeholder="Address*" name="myaddress" required>
+            <input type="tel" placeholder="Mobile Number*" name="mynumber" required>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="Credit card number" required>  
+            <input type="text" id="expmonth" name="expmonth" placeholder="Expiring Date" required>
+            <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+            <textarea cols="30" rows="4"placeholder="Feedback" name = "myfeedback"></textarea required>
+            <button name="submit" value="submit">submit</button>
+   
+        </form>
+    </div>
+    <div class="footer">
+        <h2>Copyright@2022</h2>
+        <h5>call us at - +91 8708670857</h5>
+    </div>
+    
+</body>
+</html>
+
